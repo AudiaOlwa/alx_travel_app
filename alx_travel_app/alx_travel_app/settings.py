@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alxtravelapp.urls'
+ROOT_URLCONF = 'alx_travel_app.urls'
 
 
 TEMPLATES = [
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alxtravelapp.wsgi.application'
+WSGI_APPLICATION = 'alx_travel_app.wsgi.application'
 
 
 # Database
@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'alxtravelapp.wsgi.application'
 DATABASES = {
    "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": env("DB_NAME", default="alxtravelapp"),
+        "NAME": env("DB_NAME", default="alx_travel_app"),
         "USER": env("DB_USER", default="root"),
         "PASSWORD": env("DB_PASSWORD", default="Audi25sqlpass"),
         "HOST": env("DB_HOST", default="localhost"),
